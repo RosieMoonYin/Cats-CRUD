@@ -1,29 +1,44 @@
-# Full Stacking!
+# 🐾 To-Do for Cats
 
-It's time to get started working with both C# , HTML, CSS and Javascript!
+A fun, full-stack web application where you can create and manage to-do lists for your feline friends!
 
-## Info
+## 🛠️ Tech Stack
 
-You have been supplied with a bare-bones full-stack project.
-Today, the stage is yours. Work on [vertical slices](https://en.wikipedia.org/wiki/Vertical_slice) to build up your application and add functionality! 
+- **Front-End:** React, JavaScript
+- **Back-End:** C#, .NET Web API
+- **Database:** [Your Database of Choice (e.g., SQLite, PostgreSQL)]
+- **Styling:** Tailwind CSS
 
-What to add? That is up to you! You can focus on impementing some basic [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) on the backend! Setup styling in the frontend or implement som interactivity with JavaScript!
+## 🚀 Features
 
-## Getting started.
+- Create, update, and delete cat to-dos
+- Interactive and responsive UI
+- RESTful API for managing tasks
 
-1. Make sure you have NPM installed.
-  - If you are on Mac or Linux, install [nvm](https://github.com/nvm-sh/nvm) here and set your version to 20.
-  - If you are on Windows, do the same but install the [Windows verson of nvm](https://github.com/coreybutler/nvm-windows)
+## ⚙️ Getting Started
 
-## Running the Project
+1. **Clone the repository:**
 
-Run the following command to get started
+    ```bash
+    git clone https://github.com/yourusername/cat-todo-app.git
+    cd cat-todo-app
+    ```
 
-  ```shell
-  npm start
-  ```
-This starts both the front-end and back-end at the same time!
+2. **Install front-end dependencies:**
 
----
+    ```bash
+    cd client
+    npm install
+    npm start
+    ```
 
-Happy Hacking!
+3. **Run the back-end:**
+
+    ```bash
+    cd server
+    dotnet run
+    ```
+
+## 🎉 Have Fun!
+
+Feel free to customize the app and add more features. Contributions are welcome!
